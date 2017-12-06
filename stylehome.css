@@ -1,0 +1,377 @@
+body { height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    min-width: 320px;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto 15vh auto auto  ;
+    min-width: 320px;
+}
+
+.header{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: white;
+}
+
+
+
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(3,1fr) 2fr repeat(3,1fr);
+    grid-gap: 2vw;
+    grid-template-rows: repeat(1);
+    text-align: center;
+    font-size: 1.2em;
+    min-width: 320px;
+  
+}
+
+span{display: inline-block;
+vertical-align: middle;
+line-height: normal}
+
+
+.aboutme{
+    grid-column: 1/2;
+    grid-row: 1;
+    background-color: white;
+    line-height: 15vh;
+    
+}
+
+.aboutme a{text-decoration: none;
+color: black
+}
+
+.aboutme a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+.work{
+    grid-column: 2/3;
+    grid-row: 1;
+    background-color: white;
+     line-height: 15vh;
+}
+
+.work a{text-decoration: none;
+color: black
+}
+
+.work a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+.blog{
+    grid-column: 3/4;
+    grid-row: 1;
+    background-color: white;
+    line-height: 15vh;
+}
+
+.blog a{text-decoration: none;
+color: black
+}
+
+.blog a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+
+.logo{
+    grid-column: 4/5;
+    grid-row: 1;
+    background-image: url(../IMG/MJB%20Logo.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center
+ 
+}
+
+.testimonials{
+    grid-column: 5/6;
+    grid-row: 1;
+    background-color: white;
+    line-height: 15vh;
+}
+
+.testimonials a{text-decoration: none;
+color: black
+}
+
+.testimonials a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+.cv{
+    grid-column: 6/7;
+    grid-row: 1;
+    background-color: white;
+    line-height: 15vh;
+}
+
+.cv a{text-decoration: none;
+color: black
+}
+
+.cv a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+.contact{
+    grid-column: 7/8;
+    grid-row: 1;
+    background-color: white;
+    line-height: 15vh;
+}
+
+.contact a{text-decoration: none;
+color: black
+}
+
+.contact a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+.main{
+    grid-column: 1/2;
+    grid-row:3;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 1;
+}
+
+.banner {grid-column: 1/3;
+grid-row: 1;
+display: grid;
+grid-template-columns: 60% 40%;
+grid-template-rows: auto;
+    min-width: 320px;
+   
+}
+
+
+.picture {grid-column: 1/3;
+grid-row: 1;
+  
+}
+
+.picture img{height: 42vw}
+
+.text {grid-column: 2;
+grid-row: 1;
+font-size: 14vw;
+ 
+}
+
+.info {
+font-size: 1.6vw;}
+
+
+.footer{
+    grid-column: 1;
+    grid-row: 4;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1 ;
+    grid-template-rows: 1fr 0.5vh 1fr 1fr 2vh;
+    text-align: center;
+    font-size: 1em;
+    color: white
+}
+
+.menu{
+    grid-column: 1;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0.5vw;
+    grid-template-rows: 1;
+    text-align: center;
+    color: white
+}
+
+.footeraboutme{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: black;
+    line-height: 4vh;
+}
+
+.footeraboutme a{text-decoration: none;
+color: white
+}
+
+.footeraboutme a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+.footerwork{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: black;
+    line-height: 4vh;
+}
+
+.footerwork a{text-decoration: none;
+color: white
+}
+
+.footerwork a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+.footerblog{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: black;
+    line-height: 4vh;
+}
+
+.footerblog a{text-decoration: none;
+color: white
+}
+
+.footerblog a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+.footertestimonials{
+    grid-column: 4;
+    grid-row: 1;
+    background-color: black;
+    line-height:4vh;
+}
+
+.footertestimonials a{text-decoration: none;
+color: white
+}
+
+.footertestimonials a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+.footercv{
+    grid-column: 5;
+    grid-row: 1;
+    background-color: black;
+    line-height: 4vh;
+}
+
+.footercv a{text-decoration: none;
+color: white
+}
+
+.footercv a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+.footercontact{
+    grid-column: 6;
+    grid-row: 1;
+    background-color: black;
+    line-height:4vh;
+}
+
+.footercontact a{text-decoration: none;
+color: white
+}
+
+.footercontact a:hover {
+text-shadow: 20px;
+text-decoration: underline;
+transition: 0.4s}
+
+
+
+.social{
+    grid-column: 1;
+    grid-row: 3;
+    display: grid;
+    width: 75vw;
+    margin-left: 12.5vw;
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1;
+    font-size: 2em;
+    
+}
+.fa-facebook-official{
+    grid-column: 1;
+    grid-row: 1;
+    text-decoration: none;
+    color: white;
+    
+}
+
+}
+.fa-facebook-official a {text-decoration: none;
+color: white}
+
+.fa-facebook-official:hover
+{color: #3B5998}
+
+
+.fa-twitter{
+    grid-column: 2;
+    grid-row: 1;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-twitter a {text-decoration: none;
+color: white}
+
+.fa-twitter:hover
+{color: #55acee}
+
+
+.fa-instagram:hover
+{color: #e95950}
+
+.fa-instagram a {text-decoration: none;
+color: white}
+.fa-instagram{
+    grid-column: 3;
+    grid-row: 1;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-youtube-play a {text-decoration: none;
+color: white}
+
+.fa-youtube-play:hover
+{color: #ff0000}
+
+.fa-youtube-play{
+    grid-column: 4;
+    grid-row: 1;
+    text-decoration: none;
+    color: white;}
+
+.information{
+    grid-column: 1;
+    grid-row: 4;
+
+}
